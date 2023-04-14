@@ -87,7 +87,8 @@
                 buttonText: 'Add',
                 color: {
                     base: '#000080',
-                    hover: '#333399',
+                    border: "1px solid #000080",
+                    //hover: '#333399',
                     text: '#ffffff'
                 },
                 handler: {
@@ -361,8 +362,9 @@
             buttons: [{
                 buttonText: 'Override',
                 color: {
-                    base: '#728E9B',
-                    hover: '#004849',
+                    base: '#000080',
+                    border: "1px solid #000080",
+                    //hover: '#004849',
                     text: '#ffffff'
                 },
                 handler: {
@@ -377,6 +379,7 @@
                 buttonText: 'Cancel',
                 color: {
                     base: '#ffffff',
+                    border: "1px solid #000080",
                     //hover: '#C7D2D7',
                     text: '#000080'
                 },

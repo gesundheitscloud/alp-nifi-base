@@ -77,7 +77,7 @@
                 buttonText: 'Ok',
                 color: {
                     base: '#000080',
-                    hover: '#333399',
+                    border: "1px solid #000080",
                     text: '#ffffff'
                 },
                 handler: {
@@ -118,7 +118,8 @@
                 buttonText: options.yesText,
                 color: {
                     base: '#000080',
-                    hover: '#333399',
+                    border: "1px solid #000080",
+                    //hover: '#333399',
                     text: '#ffffff'
                 },
                 handler: {
@@ -134,9 +135,10 @@
                 {
                     buttonText: options.noText,
                     color: {
-                        base: '#E3E8EB',
-                        hover: '#C7D2D7',
-                        text: '#004849'
+                        base: '#000080',
+                        border: "1px solid #000080",
+                        //hover: '#339933',
+                        text: '#ffffff'
                     },
                     handler: {
                         click: function () {

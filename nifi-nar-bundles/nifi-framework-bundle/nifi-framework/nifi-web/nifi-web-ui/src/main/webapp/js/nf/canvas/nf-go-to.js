@@ -425,8 +425,9 @@
                 buttons: [{
                     buttonText: 'Close',
                     color: {
-                        base: '#728E9B',
-                        hover: '#004849',
+                        base: '#000080',
+                        border: "1px solid #000080",
+                        //hover: '#004849',
                         text: '#ffffff'
                     },
                     handler: {

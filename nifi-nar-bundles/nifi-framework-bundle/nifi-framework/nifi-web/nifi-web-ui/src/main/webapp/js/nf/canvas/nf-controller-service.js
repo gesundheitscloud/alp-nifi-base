@@ -1409,6 +1409,7 @@
                 buttonText: 'Close',
                 color: {
                     base: '#ffffff',
+                    border: "1px solid #000080",
                     text: '#000080'
                 },
                 handler: {
@@ -1567,6 +1568,7 @@
                 buttonText: 'Close',
                 color: {
                     base: '#ffffff',
+                    border: "1px solid #000080",
                     text: '#000080'
                 },
                 handler: {
@@ -2227,9 +2229,10 @@
                         buttonText: 'Advanced',
                         clazz: 'fa fa-cog button-icon',
                         color: {
-                            base: '#E3E8EB',
-                            hover: '#C7D2D7',
-                            text: '#004849'
+                            base: '#000080',
+                            border: "1px solid #000080",
+                            //hover: '#C7D2D7',
+                            text: '#ffffff'
                         },
                         handler: {
                             click: function () {
@@ -2384,7 +2387,8 @@
                     buttonText: 'Ok',
                     color: {
                         base: '#000080',
-                        hover: '#333399',
+                        border: "1px solid #000080",
+                        //hover: '#333399',
                         text: '#ffffff'
                     },
                     handler: {
@@ -2401,9 +2405,10 @@
                         buttonText: 'Advanced',
                         clazz: 'fa fa-cog button-icon',
                         color: {
-                            base: '#E3E8EB',
-                            hover: '#C7D2D7',
-                            text: '#004849'
+                            base: '#000080',
+                            border: "1px solid #000080",
+                            //hover: '#C7D2D7',
+                            text: '#ffffff'
                         },
                         handler: {
                             click: function () {

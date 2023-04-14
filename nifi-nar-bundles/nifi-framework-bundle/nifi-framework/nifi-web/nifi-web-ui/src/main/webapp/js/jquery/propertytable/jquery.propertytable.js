@@ -1149,9 +1149,10 @@
                     buttons: [{
                         buttonText: 'Create',
                         color: {
-                            base: '#728E9B',
-                            hover: '#004849',
-                            text: '#ffffff'
+                            base: '#000080',
+                            border: "1px solid #000080",
+                            //hover: '#333399',
+                            text: '#FFFFFF'
                         },
                         handler: {
                             click: function () {
@@ -2083,7 +2084,7 @@
                                 buttonText: 'Ok',
                                 color: {
                                     base: '#000080',
-                                    hover: '#333399',
+                                    border: "1px solid #000080",
                                     text: '#ffffff'
                                 },
                                 handler: {

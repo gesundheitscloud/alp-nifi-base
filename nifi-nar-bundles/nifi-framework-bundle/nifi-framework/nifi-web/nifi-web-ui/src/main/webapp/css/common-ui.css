@@ -719,10 +719,19 @@ md-progress-linear > div {
 
 .ui-menu .ui-menu-item a {
     display: block;
-    border: 1px solid #000080;
+    border: 1px solid transparent;
     line-height: 1.5;
     margin: 0 !important;
     color: #333 !important;
+}
+
+.ui-menu .ui-menu-item a:hover {
+    display: block;
+    border: 1px solid #000080!important;
+    line-height: 1.5;
+    margin: 0 !important;
+    color: #000080 !important;
+    background-color: #ebf2fa;
 }
 
 .ui-menu .ui-menu-item a.ui-state-active {
