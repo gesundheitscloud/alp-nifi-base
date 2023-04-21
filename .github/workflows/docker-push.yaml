@@ -16,6 +16,7 @@ jobs:
   nifi-base-docker-push:
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
         include:
           - name: alp-nifi-base:main
