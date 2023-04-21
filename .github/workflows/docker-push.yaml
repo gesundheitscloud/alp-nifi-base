@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - "main"
+      - "update/satish/nifi-1.19.2"
 
   workflow_dispatch:
 
