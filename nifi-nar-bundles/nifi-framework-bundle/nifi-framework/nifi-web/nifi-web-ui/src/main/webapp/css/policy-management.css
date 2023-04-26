@@ -93,24 +93,24 @@ div.policy-controls {
     float: left;
     width: 225px;
     margin-right: 3px;
-    border-left: 1px solid transparent;
-    border-right: 1px solid transparent;
+    /* border-left: 1px solid transparent;
+    border-right: 1px solid transparent; */
 }
 
 #component-policy-target {
     float: left;
     width: 200px;
     margin-right: 3px;
-    border-left: 1px solid transparent;
-    border-right: 1px solid transparent;
+    /* border-left: 1px solid transparent;
+    border-right: 1px solid transparent; */
 }
 
 #controller-policy-target {
     float: left;
     width: 160px;
     margin-right: 3px;
-    border-left: 1px solid transparent;
-    border-right: 1px solid transparent;
+    /* border-left: 1px solid transparent;
+    border-right: 1px solid transparent; */
 }
 
 div.policy-selected-component-container {
