@@ -927,7 +927,7 @@
                         if (terminatedThreads > 0) {
                             return '#ba554a';
                         } else {
-                            return '#728e9b';
+                            return '#000080';
                         }
                     })
                     .style('display', 'block')

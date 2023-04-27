@@ -403,7 +403,7 @@ span.sorted {
     height: 15px;
     font-size: 15px;
     font-family: Roboto;
-    color: #262626;
+    color: #000080;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
@@ -412,7 +412,7 @@ span.sorted {
 #cluster-processor-type {
     font-size: 12px;
     font-family: Roboto;
-    color: #728e9b;
+    color: #000080;
     margin-top: 3px;
     overflow: hidden;
     white-space: nowrap;
@@ -421,7 +421,7 @@ span.sorted {
 #cluster-processor-id {
     font-size: 12px;
     font-family: Roboto;
-    color: #775351;
+    color: #000080;
     position: absolute;
     bottom: 0px;
     text-overflow: ellipsis;
@@ -510,7 +510,7 @@ span.sorted {
 #cluster-input-port-type {
     font-size: 12px;
     font-family: Roboto;
-    color: #728e9b;
+    color: #000080;
     margin-top: 3px;
     overflow: hidden;
     white-space: nowrap;
@@ -608,7 +608,7 @@ span.sorted {
 #cluster-output-port-type {
     font-size: 12px;
     font-family: Roboto;
-    color: #728e9b;
+    color: #000080;
     margin-top: 3px;
     overflow: hidden;
     white-space: nowrap;
@@ -706,7 +706,7 @@ span.sorted {
 #cluster-remote-process-group-type {
     font-size: 12px;
     font-family: Roboto;
-    color: #728e9b;
+    color: #000080;
     margin-top: 3px;
     overflow: hidden;
     white-space: nowrap;
@@ -804,7 +804,7 @@ span.sorted {
 #cluster-connection-type {
     font-size: 12px;
     font-family: Roboto;
-    color: #728e9b;
+    color: #000080;
     margin-top: 3px;
     overflow: hidden;
     white-space: nowrap;
@@ -902,7 +902,7 @@ span.sorted {
 #cluster-process-group-type {
     font-size: 12px;
     font-family: Roboto;
-    color: #728e9b;
+    color: #000080;
     margin-top: 3px;
     overflow: hidden;
     white-space: nowrap;

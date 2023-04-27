@@ -62,7 +62,7 @@ button.policy-button:disabled {
 
 #policy-message-container {
     height: 18px;
-    color: #775351;
+    color: #000080;
     font-family: Roboto;
     font-size: 13px;
     font-weight: 500;
@@ -148,7 +148,7 @@ div.policy-selected-component-name {
 div.policy-selected-component-type {
     font-size: 12px;
     font-family: Roboto;
-    color: #728e9b;
+    color: #000080;
 }
 
 /*

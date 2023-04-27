@@ -181,8 +181,8 @@ div.context-menu-provenance {
 
 .not-transmitting {
     float: left;
-    color: #728e9b !important;
-    fill: #728e9b !important;
+    color: #000080 !important;
+    fill: #000080 !important;
     margin-top: 0px !important;
     text-shadow: 0 0 4px rgba(255,255,255,1);
 }

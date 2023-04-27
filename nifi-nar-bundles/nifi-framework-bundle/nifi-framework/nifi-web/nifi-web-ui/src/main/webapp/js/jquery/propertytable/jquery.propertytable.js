@@ -898,9 +898,9 @@
                         'left': '20px'
                     }).hover(
                         function () {
-                            $(this).css('background', '#004849');
+                            $(this).css('background', '#333399');
                         }, function () {
-                            $(this).css('background', '#728E9B');
+                            $(this).css('background', '#000080');
                         }).on('click', function () {
                         wrapper.hide().remove();
                     }).appendTo(wrapper);
@@ -994,9 +994,9 @@
                         'left': '20px'
                     }).hover(
                         function () {
-                            $(this).css('background', '#004849');
+                            $(this).css('background', '#333399');
                         }, function () {
-                            $(this).css('background', '#728E9B');
+                            $(this).css('background', '#000080');
                         }).on('click', function () {
                         cleanUp();
                     });
