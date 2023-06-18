@@ -135,10 +135,10 @@
                 {
                     buttonText: options.noText,
                     color: {
-                        base: '#000080',
+                        base: '#ffffff',
                         border: "1px solid #000080",
                         //hover: '#339933',
-                        text: '#ffffff'
+                        text: '#000080'
                     },
                     handler: {
                         click: function () {
