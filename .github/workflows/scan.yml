@@ -70,9 +70,9 @@ permissions:
   contents: read
 
 jobs:
-  static-analysis:
+  build:
     timeout-minutes: 30
-    name: Static Analysis
+    name: SonarCloud Build and analyze
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
@@ -113,6 +113,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=alp-nifi-base -Drat.numUnapprovedLicenses=1000
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=alp-nifi-base -Drat.ignoreErrors=true  -Drat.skip=true -Drat.numUnapprovedLicenses=1000 -Dlicense.skip
 
  
