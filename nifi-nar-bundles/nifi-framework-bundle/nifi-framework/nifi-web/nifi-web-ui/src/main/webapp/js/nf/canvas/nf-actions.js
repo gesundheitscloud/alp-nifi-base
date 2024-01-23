@@ -1381,7 +1381,8 @@
                         buttonText: 'Stop',
                         color: {
                             base: '#000080',
-                            hover: '#333399',
+                            border: "1px solid #000080",
+                            //hover: '#333399',
                             text: '#ffffff'
                         },
                         handler: {
@@ -1560,7 +1561,7 @@
                         buttonText: 'Stop',
                         color: {
                             base: '#000080',
-                            hover: '#333399',
+                            //hover: '#333399',
                             text: '#ffffff'
                         },
                         handler: {
@@ -2178,7 +2179,8 @@
                 buttonText: 'Create',
                 color: {
                     base: '#000080',
-                    hover: '#333399',
+                    border: "1px solid #000080",
+                    //hover: '#333399',
                     text: '#ffffff'
                 },
                 handler: {

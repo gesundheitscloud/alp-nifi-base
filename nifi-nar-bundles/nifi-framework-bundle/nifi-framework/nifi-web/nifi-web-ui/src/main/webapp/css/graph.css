@@ -126,7 +126,7 @@ rect.bulletin-background {
 text.active-thread-count-icon {
     font-family: flowfont;
     font-size: 12px;
-    fill: #728e9b;
+    fill: #000080;
     text-anchor: end;
 }
 
@@ -322,7 +322,7 @@ g.connection path.connection-path.unauthorized {
 }
 
 text.connection-from-run-status, text.connection-to-run-status, text.expiration-icon, text.load-balance-icon, text.penalized-icon {
-    fill: #728e9b;
+    fill: #000080;
     font-family: FontAwesome;
     font-size: 12px;
     text-shadow: 0 0 4px rgba(255,255,255,1);
@@ -490,7 +490,7 @@ text.port-icon {
 
 text.port-transmission-icon {
     font-size: 15px;
-    fill: #728e9b
+    fill: #000080
 }
 
 /* active thread count */
@@ -527,7 +527,7 @@ g.process-group.drop rect.border {
 
 text.process-group-contents-icon {
     font-size: 15px;
-    fill: #728e9b;
+    fill: #000080;
 }
 
 /* remote process group */
@@ -544,15 +544,15 @@ text.remote-process-group-uri {
 
 text.remote-process-group-transmission-status {
     font-size: 15px;
-    fill: #728e9b
+    fill: #000080
 }
 
 text.remote-process-group-transmission-secure {
     font-family: FontAwesome;
     font-size: 13px;
-    fill: #004849;
+    fill: #000080;
 }
 
 text.remote-process-group-last-refresh {
-    fill: #728e9b;
+    fill: #000080;
 }

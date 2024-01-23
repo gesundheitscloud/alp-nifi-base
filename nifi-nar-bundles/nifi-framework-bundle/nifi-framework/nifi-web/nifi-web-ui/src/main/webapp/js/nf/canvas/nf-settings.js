@@ -1107,7 +1107,8 @@
                 buttonText: 'Add',
                 color: {
                     base: '#000080',
-                    hover: '#333399',
+                    //hover: '#333399',
+                    border: "1px solid #000080",
                     text: '#ffffff'
                 },
                 disabled: function () {
@@ -1510,7 +1511,8 @@
                 buttonText: 'Add',
                 color: {
                     base: '#000080',
-                    hover: '#333399',
+                    border: "1px solid #000080",
+                    //hover: '#333399',
                     text: '#ffffff'
                 },
                 disabled: function () {
@@ -1899,7 +1901,8 @@
                 buttonText: 'Add',
                 color: {
                     base: '#000080',
-                    hover: '#333399',
+                    border: "1px solid #000080",
+                    //hover: '#333399',
                     text: '#ffffff'
                 },
                 handler: {
@@ -2377,8 +2380,9 @@
             $('#registry-configuration-dialog').modal('setHeaderText', 'Edit Registry Client').modal('setButtonModel', [{
                 buttonText: 'Update',
                 color: {
-                    base: '#728E9B',
-                    hover: '#004849',
+                    base: '#000080',
+                    border: "1px solid #000080",
+                    //hover: '#004849',
                     text: '#ffffff'
                 },
                 handler: {

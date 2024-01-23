@@ -415,6 +415,7 @@
                     buttonText: 'Close',
                     color: {
                         base: '#ffffff',
+                        border: "1px solid #000080",
                         text: '#000080'
                     },
                     handler: {
@@ -431,7 +432,8 @@
                     buttonText: 'Apply',
                     color: {
                         base: '#000080',
-                        hover: '#333399',
+                        border: "1px solid #000080",
+                        //hover: '#333399',
                         text: '#ffffff'
                     },
                     handler: {

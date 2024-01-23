@@ -310,8 +310,9 @@ var ua = {
             buttons: [{
                     buttonText: 'Add',
                     color: {
-                        base: '#728E9B',
-                        hover: '#004849',
+                        base: '#000080',
+                        border: '1px solid #000080',
+                        //hover: '#004849',
                         text: '#ffffff'
                     },
                     handler: {
@@ -408,9 +409,10 @@ var ua = {
                 }, {
                     buttonText: 'Cancel',
                     color: {
-                        base: '#E3E8EB',
-                        hover: '#C7D2D7',
-                        text: '#004849'
+                        base: '#ffffff',
+                        border: '1px solid #000080',
+                        //hover: '#C7D2D7',
+                        text: '#000080'
                     },
                     handler: {
                         click: function () {
@@ -670,8 +672,9 @@ var ua = {
             buttons: [{
                     buttonText: 'Ok',
                     color: {
-                        base: '#728E9B',
-                        hover: '#004849',
+                        base: '#000080',
+                        border: '1px solid #000080',
+                        //hover: '#004849',
                         text: '#ffffff'
                     },
                     handler: {
@@ -945,8 +948,9 @@ var ua = {
                         $('#yes-no-dialog').modal('setHeaderText', 'Save Changes').modal('setButtonModel', [{
                                 buttonText: 'Yes',
                                 color: {
-                                    base: '#728E9B',
-                                    hover: '#004849',
+                                    base: '#000080',
+                                    border: '1px solid #000080',
+                                    //hover: '#004849',
                                     text: '#ffffff'
                                 },
                                 handler: {
@@ -965,9 +969,10 @@ var ua = {
                             }, {
                                 buttonText: 'No',
                                 color: {
-                                    base: '#E3E8EB',
-                                    hover: '#C7D2D7',
-                                    text: '#004849'
+                                    base: '#ffffff',
+                                    border: '1px solid #000080',
+                                    //hover: '#C7D2D7',
+                                    text: '#000080'
                                 },
                                 handler: {
                                     click: function () {
@@ -1242,8 +1247,9 @@ var ua = {
             $('#yes-no-dialog').modal('setHeaderText', 'Delete Confirmation').modal('setButtonModel', [{
                     buttonText: 'Yes',
                     color: {
-                        base: '#728E9B',
-                        hover: '#004849',
+                        base: '#000080',
+                        border: '1px solid #000080',
+                        //hover: '#004849',
                         text: '#ffffff'
                     },
                     handler: {
@@ -1278,9 +1284,10 @@ var ua = {
                 }, {
                     buttonText: 'No',
                     color: {
-                        base: '#E3E8EB',
-                        hover: '#C7D2D7',
-                        text: '#004849'
+                        base: '#ffffff',
+                        border: '1px solid #000080',
+                        //hover: '#C7D2D7',
+                        text: '#000080'
                     },
                     handler: {
                         click: function () {

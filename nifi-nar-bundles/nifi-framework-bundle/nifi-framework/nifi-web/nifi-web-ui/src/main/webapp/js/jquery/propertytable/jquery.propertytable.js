@@ -646,22 +646,23 @@
 
                 // add buttons for handling user input
                 var cancel = $('<div class="secondary-button">Cancel</div>').css({
-                    'color': '#004849',
-                    'background': '#E3E8EB'
-                }).hover(
-                    function () {
-                        $(this).css('background', '#C7D2D7');
-                    }, function () {
-                        $(this).css('background', '#E3E8EB');
-                    }).on('click', scope.cancel);
+                    'color': '#000080',
+                    'background': '#ffffff'
+                })
+                //.hover(
+                //     function () {
+                //         $(this).css('background', '#C7D2D7');
+                //     }, function () {
+                //         $(this).css('background', '#E3E8EB');
+                //     }).on('click', scope.cancel);
                 var ok = $('<div class="button">Ok</div>').css({
-                    'color': '#fff',
-                    'background': '#728E9B'
+                    'color': '#ffffff',
+                    'background': '#000080'
                 }).hover(
                     function () {
-                        $(this).css('background', '#004849');
+                        $(this).css('background', '#333399');
                     }, function () {
-                        $(this).css('background', '#728E9B');
+                        $(this).css('background', '#333399');
                     }).on('click', scope.save);
 
                 $('<div></div>').css({
@@ -897,9 +898,9 @@
                         'left': '20px'
                     }).hover(
                         function () {
-                            $(this).css('background', '#004849');
+                            $(this).css('background', '#333399');
                         }, function () {
-                            $(this).css('background', '#728E9B');
+                            $(this).css('background', '#000080');
                         }).on('click', function () {
                         wrapper.hide().remove();
                     }).appendTo(wrapper);
@@ -993,9 +994,9 @@
                         'left': '20px'
                     }).hover(
                         function () {
-                            $(this).css('background', '#004849');
+                            $(this).css('background', '#333399');
                         }, function () {
-                            $(this).css('background', '#728E9B');
+                            $(this).css('background', '#000080');
                         }).on('click', function () {
                         cleanUp();
                     });
@@ -1148,9 +1149,10 @@
                     buttons: [{
                         buttonText: 'Create',
                         color: {
-                            base: '#728E9B',
-                            hover: '#004849',
-                            text: '#ffffff'
+                            base: '#000080',
+                            border: "1px solid #000080",
+                            //hover: '#333399',
+                            text: '#FFFFFF'
                         },
                         handler: {
                             click: function () {
@@ -2082,7 +2084,7 @@
                                 buttonText: 'Ok',
                                 color: {
                                     base: '#000080',
-                                    hover: '#333399',
+                                    border: "1px solid #000080",
                                     text: '#ffffff'
                                 },
                                 handler: {

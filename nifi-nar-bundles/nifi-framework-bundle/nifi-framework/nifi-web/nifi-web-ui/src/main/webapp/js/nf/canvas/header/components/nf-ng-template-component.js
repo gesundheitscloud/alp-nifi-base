@@ -241,7 +241,8 @@
                             buttonText: 'Add',
                             color: {
                                 base: '#000080',
-                                hover: '#333399',
+                                border: "1px solid #000080",
+                                //hover: '#333399',
                                 text: '#ffffff'
                             },
                             handler: {

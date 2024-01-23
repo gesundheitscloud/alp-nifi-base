@@ -29,7 +29,7 @@
 #flow-status .icon {
     font-size: 15px;
     font-style: normal;
-    color: #728E9B; /*base-color*/
+    color: #000080; /*base-color*/
 }
 
 #flow-status .fa {
@@ -54,7 +54,7 @@
 }
 
 #flow-status button {
-    height: 32px;
+    height: 33px;
     width: 32px;
     border-left: 1px solid #000080; /*tint base-color 40%*/
     border-right: 1px solid #000080;

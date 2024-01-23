@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - "main"
+      - "SGGREEN-471_UI-Changes"
 
   workflow_dispatch:
 
